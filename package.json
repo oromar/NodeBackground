@@ -1,0 +1,21 @@
+{
+  "name": "background_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.18.0",
+    "bull-board": "^0.9.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
+    "password-generator": "^2.3.2"
+  }
+}
